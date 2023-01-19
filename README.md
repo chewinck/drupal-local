@@ -8,7 +8,7 @@
  
 # habilitar las extensiones de php dg y dom
  
- Se debe crear una base de datos y establecer la configuración en el archivo settings.php ubicado en la ruta
+ Se debe crear una base de datos e importar el archivo drupal.sql y establecer la configuración en el archivo settings.php ubicado en la ruta
  drupal-local\web\sites\default en la linea 816, establecer los valores de configuración a la base de datos segun corresponda:
  
  $databases['default']['default'] = array (
